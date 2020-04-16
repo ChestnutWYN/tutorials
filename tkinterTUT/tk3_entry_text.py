@@ -8,8 +8,8 @@ import tkinter as tk
 window = tk.Tk()
 window.title('my window')
 window.geometry('200x200')
-# e = tk.Entry(window, show="*")
-e = tk.Entry(window, show="1")
+# e = tk.Entry(window, show="*")#输入密码时
+e = tk.Entry(window, show= None)
 e.pack()
 
 def insert_point():
